@@ -3,16 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 5555",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "antd": "^5.12.8",
+    "axios": "^1.6.5",
+    "bcrypt": "^5.1.1",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3",
     "next": "14.0.4",
     "next-auth": "^4.24.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-hook-form": "^7.49.3",
+    "zustand": "^4.4.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
